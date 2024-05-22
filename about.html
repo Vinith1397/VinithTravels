@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Vinith_Travels
+    </title>
+</head>
+
+<body>
+    <nav>
+        <div class="start_division">
+            <img src="images/main_logo.jpeg" alt="Vinith_Travels_logo">
+            <a href="#">Vinith Travels</a>
+
+        </div>
+
+        <div class="middle_divison">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+        </div>
+
+        <div class="search-division">
+            <input type="text" id="search-input" placeholder="Enter the destination">
+            <button id="search-button" onclick="document.getElementById('recommendations-container').scrollIntoView({ behavior: 'smooth' });">Search</button>
+            <button id="clear button" onclick="clearSearch()">Clear</button>
+        </div>
+    </nav>
+    <section class="team">
+        <h2>Our Team</h2>
+        <div class="team-member">
+            <img src="images/passport.jpg" alt="Vinith Kumar">
+            <h3>Vinith Kumar</h3>
+            <p>CEO</p>
+        </div><br>
+        <button class="b" onclick="document.getElementById('about-header').scrollIntoView({ behavior: 'smooth' });">About me</button>
+    </section>
+    <header class="about-header" id="about-header">
+        <div class="overlay">
+            <div class="about">
+                <h1>About Me</h1>
+                <p>Welcome to Our Company! We are a team of passionate individuals dedicated to providing excellent
+                    services/products to our customers. Our mission is to provide the best experience for people
+                    traveling to different destinations around the world.</p>
+                <p>Our values include integrity, innovation, customer satisfaction, and teamwork. We believe in putting
+                    our customers first and working together to achieve our goals.</p>
+                <p>Feel free to explore our website to learn more about what we offer!</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="recommendations-container" class="recommendations-container">
+        <!-- Recommendations will be displayed here -->
+    </section>
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="travel_recomondations.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>
+            Vinith_Travels
+     </title>
+    </head>
+    <body>
+        <nav>
+        <div class="start_division">
+            <img src="images/main_logo.jpeg" alt="Vinith_Travels_logo">
+            <a href="#">Vinith Travels</a>
+
+        </div>
+        
+        <div class="middle_divison">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
+        </div>    
+       
+        <div class="search-division">
+            <input type="text" id="search-input" placeholder="Enter the destination">
+            <button id="search-button" onclick="document.getElementById('recommendations-container').scrollIntoView({ behavior: 'smooth' });">Search</button>
+            <button id="clear button" onclick="clearSearch()">Clear</button>
+        </div>
+
+        </nav>
+        <header class="contact-header">
+            <div class="overlay">
+                <h1>Contact Us</h1>
+                <p>Get in touch</p>
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </header>
+        <section id="recommendations-container" class="recommendations-container">
+            <!-- Recommendations will be displayed here -->
+        </section>
+        <link rel="stylesheet" href="style.css">
+        <script src="travel_recomondations.js"></script> 
+    </body>
+</html>

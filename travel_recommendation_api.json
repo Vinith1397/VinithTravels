@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "images/sydney.jpeg",
+          "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "images/melbourne.jpeg",
+          "description": "Famous for its culture, coffee, and laneways."
+        }
+      ]
+    },
+    {
+        "id":2,
+        "name": "India",
+        "cities": [{"name": "Delhi,India","imageUrl": "images/delhi.webp","description": "Famous for RedFort , Indira Gandhi Memorial"},{"name": "Hyderabad,India","imageUrl": "images/hyderabad.jpeg","description": "Famous for Charminar , Ramoji Film city and Biryani"},{"name": "Mubai,India","imageUrl": "images/mumbai.webp","description": "Famous for Film city , Marine drive/Juhu beach"}]
+    }
+  ]
+  
